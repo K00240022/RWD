@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #252525;
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  color: #ffd700;
+  height:150px;
+}
+
+#logo {
+	float:left;
+}
+#reserveContainer {
+    font-family: Arial, sans-serif;
+	background-color: white;
+    color: #4E5160;
+	margin: 20px 5% 20px 5%;
+	font-weight: bold;
+	background-color: #eed202;
+	border: 5px solid white;
+	width: 550px;
+	margin: auto;
+	justify-content: center;
+	
+}
+#reserveContent{
+	justify-content:center;
+	
+}
+#featured{
+	width: 100%;
+}
+
+.news{
+	padding: 0 8px;
+	margin;10px;
+}
+.allnews{
+	color:white;
+}
+header .login-container {
+
+  float:right;
+
+}
+
+}
+input[type=text]{
+background-color:gold;
+color: white;
+}
+button[type=button], button[type=submit]{
+background-color: gold;
+border: 2px solid white;
+}
+.content{
+	width:100%;
+	background-color:gold;
+}
+#info{
+	border: 2px solid black;
+	color:gold;
+}
+	
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  
+  flex: 1;
+  background-color: gold;
+  padding: 20px;
+  color:white;
+  width:300px;
+  
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom:10px:
+}
+nav li a{ 
+  display: block;
+  width: 100px;
+}
+
+aside {
+	-webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color:#eed202;
+  padding:20px;
+}
+
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 20px;
+  min-height:1000px;
+  
+  
+}
+article img {
+float: right;
+width:200px;
+padding:0px;
+margin:0px;
+}
+article h1 {
+float: center;
+color:white;
+}
+article p {
+	text-align:center;
+}
+
+
+
+footer {
+
+position:relative;
+  bottom: 0;
+  width: 100%;
+  
+  background-color:#252525 ;
+  padding: 10px;
+  text-align: right;
+  color: white; */
+  
+}
+footer img{
+	float:left;
+}
+.vertical-menu {
+  width: 100%;
+}
+
+.vertical-menu a {
+  background-color: #777;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  border:1px solid black;
+}
+
+.vertical-menu a:hover {
+  background-color: black;
+  color:gold;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}	
+
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

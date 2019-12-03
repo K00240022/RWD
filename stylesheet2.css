@@ -118,9 +118,9 @@ article {
   
 }
 article img {
-float: right;
+float: left;
 width:200px;
-padding:0px;
+padding:10px;
 margin:0px;
 }
 article h1 {

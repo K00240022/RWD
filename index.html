@@ -24,15 +24,15 @@ color:white;
   
   <div class="login-container">
     <form action="/action_page.php">
-      <input type="text" placeholder="Username" name="username" id="username">
-      <input type="text" placeholder="Password" name="psw">
-      <button type="submit">Login</button>
+      <input type="text" placeholder="Username" name="username" required id="username">
+      <input type="text" placeholder="Password" name="psw" required id ="password">
+      <button type="submit" id ="username" >Login</button>
 	  
     </form>
 	<form action="Signup.html" id="signup">
 	<button type ="submit" style="width: 413px;">SIGN UP</button>
-	
-  </div>
+<!-- 	<button type ="button" onclick="document.getElementById('username').style.display='none'" >Hide Login</button>
+ -->  </div>
 
 <div style="padding-left:16px">
    
@@ -63,9 +63,11 @@ color:white;
 	  <li><a href="#">Reviews</a></li>
     </ul> -->
 	 <br><br><br><br><br><br>
-	  <p>Advertisements</p>
+	  
+	  <a href ="https://www.apple.com/ie/">
 	  <img src="images/appleadvertisement.jpg" alt="crown" target="_blank" style="width:100%;" id="AD">
-  
+	  </a>
+	  <button type ="button" onclick="document.getElementById('AD').style.display='none'" >Hide Advertisement</button>
   </nav>
   <article>
   <a href="Littlemix.html">
@@ -74,19 +76,18 @@ color:white;
 </p>
 	
 	<br><br><br>
-	
-<p><img src="images/twentyone.jpg" alt="crown" target="_blank" align = "right"> 
-<p>Twenty One Piloys announce Dublin</p>
-<p>arena show for the day before</p>
-<p>Glastonbury 2020</p></p>
+	<a href = "twentyonepilots.html">
+<p><img src="images/twentyone.jpg" alt="crown" target="_blank" > 
+</a>
+<h3>Twenty One Piloys announce Dublin arena show for the day before Glastonbury 2020</h3>
 
-<br><br><br>
 
-<p><img src="images/gallagher.jpg" alt="crown" target="_blank" align = "right"> 
-<p>Noel Gallagher and Supergrass</p>
-<p>announced as Bristol Sounds</p>
-<p>2020 headliners	</p></p>
-	
+<br><br><br><br><br>
+<a href = "gallagher.html">
+<p><img src="images/gallagher.jpg" alt="crown" target="_blank" > 
+</a>
+<h3>Noel Gallagher and Supergrass announced as Bristol Sounds 2020 headliners</h3>
+
 	
 	
 	
@@ -95,20 +96,29 @@ color:white;
   
   <aside>
   <h2>Top Stories</h2>
-  <ul>
-      <li><a href="#">Story 1</a></li>
-      <li><a href="#">Story 1</a></li>
-      <li><a href="#">Story 1</a></li>
-	  <li><a href="#">Story 1</a></li>
-	  <li><a href="#">Story 1</a></li>
-	  <li><a href="#">Story 1</a></li>
-	  <li><a href="#">Story 1</a></li>
-	  <li><a href="#">Story 1</a></li>
+   <ul>
+      <li><a href="Littlemix.html" style = "color:black;">Little Mix take Hyde Park</a></li>
+	  <br>
+      <li><a href="twentyonepilots.html" style = "color:black;">21 pilots announce Dublin</a></li>
+	  <br>
+      <li><a href="gallagher.html" style = "color:black;">Gallagher & Supergrass Bristol Sounds headliners</a></li>
+	  <br>
+	  <li><a href="travis.html" style = "color:black;">Travis Scott announces new album</a></li>
+	  <br>
+	  <li><a href="coldplay.html" style = "color:black;">Coldplay beat robbie williams to No 1</a></li>
+	  <br>
+	  <li><a href="dave.html" style = "color:black;">Dave reveals personal connection to London Bridge victim</a></li>
+	  <br>
+	  <li><a href="jme.html" style = "color:black;">JME back with first album in four years – but you can only get it on vinyl and CD</a></li>
+	  <br>
+	  <li><a href="melb.html" style = "color:black;">Mel B reveals that she wants the Spice Girls to reunite again</a></li>
     </ul>
 	 <br><br><br><br><br><br><br>
-	  <p style ="color:white;">Advertisements</p>
-	  <img src="images/cokeadvertisement.jpg" alt="crown" target="_blank" style="width:100%;" id="AD">
-  
+	  
+	  <a href = "https://www.coca-cola.ie/">
+	  <img src="images/cokeadvertisement.jpg" alt="crown" target="_blank" style="width:100%;" id="AD1">
+  </a>
+  	  <button type ="button" onclick="document.getElementById('AD1').style.display='none'" >Hide Advertisement</button>
   </aside>
 </section>
 
